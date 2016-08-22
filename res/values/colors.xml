@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#3cf</color>
+    <color name="dblue">#0ff</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000</color>
+    <color name="orange">#f90</color>
+    <color name="white">#fff</color>
+    <color name="dorange">#55FF9900</color>
+    <color name="green">#0f0</color>
+    <color name="gray">#BFBFBF</color>
+    <color name="dgray">#CCCCCC</color>
+    <color name="red">#f00</color>
+    <color name="whitesmoke">#f5f5f5</color> 
+    <color name="linearlayout_border">#ffd2d2d2</color>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp">
+    
+<EditText 
+    android:id="@+id/login_et1"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:hint="请输入用户名"
+    android:singleLine="true"
+    android:maxLength="20"
+    android:inputType="text"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/bg_edittext"/>
+
+<EditText 
+    android:id="@+id/login_et2"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:hint="密码:6到16个字符"
+    android:singleLine="true"
+    android:maxLength="11"
+    android:background="@drawable/bg_edittext"
+    android:inputType="textPassword"
+    android:layout_marginTop="20dp"
+    android:shadowColor="@color/orange"/>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+    
+    <Button 
+        android:id="@+id/login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="注册"
+        android:textColor="@color/white"
+        android:background="@drawable/drawable_normalbutton_selector"
+        android:layout_weight="1"/>
+    
+    <Button 
+        android:id="@+id/login_forgetpsw"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="忘记密码"
+        android:textColor="@color/white"
+        android:background="@drawable/drawable_normalbutton_selector"
+        android:layout_weight="1"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"/>
+    
+    <Button 
+        android:id="@+id/login_input"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:background="@drawable/drawable_normalbutton_selector"
+        android:layout_weight="1"/>
+</LinearLayout>
+</LinearLayout>
